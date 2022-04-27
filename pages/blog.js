@@ -1,9 +1,11 @@
 import Layout from '../components/Layout';
 
-export default function Home() {
+const blog = () => {
   return (
     <Layout>
-      <h2>Home</h2>
+      <h2>blog</h2>
     </Layout>
   );
-}
+};
+
+export default blog;
