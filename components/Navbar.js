@@ -1,11 +1,18 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link href="/">
-          <a className="navbar-brand">Simple Portfolio</a>
+          <Image
+            src="/logo.png"
+            alt="logo gustabin"
+            className="navbar-brand"
+            width={100}
+            height={50}
+          />
         </Link>
         <button
           className="navbar-toggler"
@@ -30,6 +37,21 @@ const Navbar = () => {
             <li className="nav-item">
               <Link href="/github">
                 <a className="nav-link">Github</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/jsonPlaceholder">
+                <a className="nav-link">jsonPlaceholder</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/randomuser">
+                <a className="nav-link">RandomUser</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/jsonLista">
+                <a className="nav-link">JsonLista</a>
               </Link>
             </li>
           </ul>
