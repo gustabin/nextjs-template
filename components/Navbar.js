@@ -54,6 +54,11 @@ const Navbar = () => {
                 <a className="nav-link">JsonLista</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/movies">
+                <a className="nav-link">Crud</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
