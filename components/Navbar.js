@@ -59,6 +59,16 @@ const Navbar = () => {
                 <a className="nav-link">Crud</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/modal">
+                <a className="nav-link">Crud Mock</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/modalApi">
+                <a className="nav-link">Crud API rest</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

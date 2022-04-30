@@ -1,5 +1,6 @@
 //import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
