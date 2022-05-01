@@ -22,7 +22,7 @@ const Layout = ({ children, footer = true }) => {
     return () => {
       router.events.off('routeChangeStart', handleRouteChange);
     };
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>

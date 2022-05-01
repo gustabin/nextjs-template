@@ -15,7 +15,9 @@ const UsersList = ({ users }) => {
               <h4>{user.title}</h4>
               <p>{user.body}</p>
               <Link href={`/users/[id]`} as={`/users/${user.id}`}>
-                <button className="btn btn-primary">View more</button>
+                <a>
+                  <button className="btn btn-primary">View more</button>
+                </a>
               </Link>
             </div>
           </li>

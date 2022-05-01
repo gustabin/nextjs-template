@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React, { useState } from 'react';
 import { Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 
-const index = () => {
+const Index = () => {
   const dataPaises = [
     { id: 1, nombre: 'Filipinas', minutos: 241 },
     { id: 2, nombre: 'Brasil', minutos: 225 },
@@ -102,7 +102,7 @@ const index = () => {
           </thead>
           <tbody>
             {data.map((elemento) => (
-              <tr>
+              <tr key={elemento.id}>
                 <td>{elemento.id}</td>
                 <td>{elemento.nombre}</td>
                 <td>{elemento.minutos}</td>
@@ -252,4 +252,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

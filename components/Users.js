@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Router from 'next/router';
+import Image from 'next/image';
 
 const Users = ({ users }) => {
   //   console.log(users);
